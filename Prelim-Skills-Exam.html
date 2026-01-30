@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Ma, ano ulam?</title>
+
+        <style>
+   
+            form {
+              max-width: 600px;
+              background: rgb(235, 235, 124);
+              padding: 25px;
+              border-radius: 10px;
+            }
+        
+            label {
+              display: block;
+              margin-top: 15px;
+            }
+        
+            input, select, textarea, button {
+              width: 100%;
+              margin-top: 5px;
+              padding: 5px;
+              border-radius: 5px;
+              border: none;
+            }
+        
+            input[type="radio"],
+            input[type="checkbox"] {
+              width: auto;
+              margin-right: 5px;
+            }
+        
+            button {
+              margin-top: 20px;
+              background-color: black;
+              color: rgb(235, 235, 124);
+              font-size: 20px;
+              cursor: pointer;
+            }
+        
+          </style>
+    </head>
+
+    <header>
+        <h1 id="Title">Ma, ano ulam? The Survey</h1>
+        
+        <p id="Description">This form will ask you what you want to eat when you get home.(R13)</p>
+    </header>
+
+    <body>
+
+        <form id="Survey-form">
+            <label id="name-label" for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            >
+            <br>
+            <br>
+
+            <label id="email-label" for="email">Email:</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            >
+
+            <br>
+            <br>
+
+            <label id="number-label" for="number">Age:</label>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              min="13"
+              max="99"
+              placeholder="Enter your age"
+              required
+            >
+
+            <br>
+            <br>
+
+               
+            <label for="dropdown">Occupation:</label>
+            <select id="dropdown" name="Occupation">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="tambay">Tambay</option>
+            </select>
+
+            <br>
+            <br>
+
+            
+            <label>Have you had dinner yet?</label>
+            <input type="radio" name="did you eat" value="yes"> Yes  
+            <input type="radio" name="did you eat" value="no"> No  
+
+            <br>
+            <br>
+
+            
+            <label>What do you like? (Select all that apply)</label>
+            <input type="checkbox" value="Light Meal"> Light Meal   
+            <input type="checkbox" value="Full Course"> Full Course
+
+            <br>
+            <br>
+
+            
+            <label for="comments">What do you want to eat tomorrow?</label>
+            <br>
+            <textarea id="comments" rows="4" placeholder="Comment here..."></textarea>
+
+            <br>
+            <br>
+
+            
+            <button id="submit" type="submit">Submit</button>
+            <br>
+            <br>
+
+
+        </form>
+
+    </body>
+</html>
+
+
+
+
+
