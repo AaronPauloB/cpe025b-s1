@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #2e7d32;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer {
+  background-color: rgb(32.2807017544, 87.7192982456, 35.0877192982);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1, .footer p {
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+}
+main .about h2 {
+  font-size: 1.5em;
+  color: #1565c0;
+}
+main .about p {
+  font-size: 16px;
+}
+main .features h2 {
+  font-size: 1.5em;
+  color: #1565c0;
+}
+main .features .feature-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+main .features .feature-list li {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(156.3157894737, 218.6842105263, 159.4736842105);
+}
+main .example h2 {
+  font-size: 1.5em;
+  color: #1565c0;
+}
+main .example .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(156.3157894737, 218.6842105263, 159.4736842105);
+}
