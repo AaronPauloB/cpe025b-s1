@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+/* Header styles */
+header {
+    background-color: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #020617;
+    padding: 10px;
+    text-align: center;
+    color: #94a3b8;
+}
+
+/* Element selector */
+h2 {
+    color: #38bdf8; /* tech blue */
+}
+
+/* Class selector */
+.highlight {
+    background-color: #22c55e; /* neon green highlight */
+    color: black;
+    padding: 4px;
+}
+
+/* ID selector */
+#header {
+    border-bottom: 2px solid #38bdf8;
+}
+
+/* Attribute selector */
+a[href^="mailto:"] {
+    color: #22c55e;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #38bdf8;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+    color: #22c55e;
+}
+
+/* Combinator selector */
+header + main {
+    border-top: 1px solid #334155;
+}
+
+/* Inline styles (highest specificity) */
+h1 {
+    color: #38bdf8 !important; /* Overridden by inline styles */
+}
+
+/* Internal styles */
+p {
+    color: #94a3b8;
+}
+
+/* External styles */
+p {
+    color: #64748b; /* Overridden by internal styles */
+}
+
+#header h1 {
+    color: #22c55e !important;
+}
