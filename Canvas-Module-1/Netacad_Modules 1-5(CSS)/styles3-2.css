@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc; /* Light yellow background (fun/cartoon feel) */
+}
+
+header {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/9/9b/Mr_Bean_animated.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: cmyk(0, 70, 100, 0); /* Warm orange background */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(120, 72, 0); /* Brown (Mr. Bean's suit color) */
+}
+
+h2 {
+    color: hsl(0, 80%, 40%); /* Red (Mr. Bean’s tie color) */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(to bottom, #fff3b0, #ffffff); /* Yellow to white gradient */
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    line-height: 1.6;
+    padding-left: 10px;
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: orange;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
